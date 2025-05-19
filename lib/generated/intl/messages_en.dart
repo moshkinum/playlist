@@ -29,6 +29,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "search": MessageLookupByLibrary.simpleMessage("Поиск"),
     "settings": MessageLookupByLibrary.simpleMessage("Настройки"),
     "shareApp": MessageLookupByLibrary.simpleMessage("Поделиться приложением"),
+    "shareAppUrl": MessageLookupByLibrary.simpleMessage(
+      "https://practicum.yandex.ru/android-developer",
+    ),
+    "supportEmail": MessageLookupByLibrary.simpleMessage("yumoshkin@mail.ru"),
+    "supportSubject": MessageLookupByLibrary.simpleMessage(
+      "Сообщение разработчикам и разработчицам приложения Playlist Maker",
+    ),
+    "supportText": MessageLookupByLibrary.simpleMessage(
+      "Спасибо разработчикам и разработчицам за крутое приложение!",
+    ),
     "userAgreement": MessageLookupByLibrary.simpleMessage(
       "Пользовательское соглашение",
     ),

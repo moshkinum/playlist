@@ -7,5 +7,9 @@
   "darkTheme": "Темная тема",
   "shareApp": "Поделиться приложением",
   "writeToSupport": "Написать в поддержку",
-  "userAgreement": "Пользовательское соглашение"
+  "userAgreement": "Пользовательское соглашение",
+  "shareAppUrl": "https://practicum.yandex.ru/android-developer",
+  "supportEmail": "yumoshkin@mail.ru",
+  "supportSubject": "Сообщение разработчикам и разработчицам приложения Playlist Maker",
+  "supportText": "Спасибо разработчикам и разработчицам за крутое приложение!"
 }

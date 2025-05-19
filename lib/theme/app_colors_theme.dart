@@ -45,7 +45,7 @@ class AppColorsTheme extends ThemeExtension<AppColorsTheme> {
       white: white ?? this.white,
       grey900: grey900 ?? this.grey900,
       amber200: amber200 ?? this.amber200,
-      white_grey900: white_grey900 ?? this.white_grey900,
+      white_grey900: white_grey900 ?? white_grey900,
       blue600_grey900: blue600_grey900 ?? this.blue600_grey900,
       grey900_white: grey900_white ?? this.grey900_white,
       grey200_white: grey200_white ?? this.grey200_white,
