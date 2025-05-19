@@ -119,6 +119,46 @@ class S {
       args: [],
     );
   }
+
+  /// `https://practicum.yandex.ru/android-developer`
+  String get shareAppUrl {
+    return Intl.message(
+      'https://practicum.yandex.ru/android-developer',
+      name: 'shareAppUrl',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `yumoshkin@mail.ru`
+  String get supportEmail {
+    return Intl.message(
+      'yumoshkin@mail.ru',
+      name: 'supportEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Сообщение разработчикам и разработчицам приложения Playlist Maker`
+  String get supportSubject {
+    return Intl.message(
+      'Сообщение разработчикам и разработчицам приложения Playlist Maker',
+      name: 'supportSubject',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Спасибо разработчикам и разработчицам за крутое приложение!`
+  String get supportText {
+    return Intl.message(
+      'Спасибо разработчикам и разработчицам за крутое приложение!',
+      name: 'supportText',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
