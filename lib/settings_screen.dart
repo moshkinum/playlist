@@ -27,7 +27,7 @@ class SettingsScreen extends StatelessWidget {
               title: Text(
                 S.of(context).darkTheme,
                 style: context.textStyleColor(
-                  context.textStyle.caption1!,
+                  context.textStyle.body1!,
                   context.color.grey900_white!,
                 ),
               ),
@@ -42,7 +42,7 @@ class SettingsScreen extends StatelessWidget {
             title: Text(
               S.of(context).shareApp,
               style: context.textStyleColor(
-                context.textStyle.caption1!,
+                context.textStyle.body1!,
                 context.color.grey900_white!,
               ),
             ),
@@ -61,7 +61,7 @@ class SettingsScreen extends StatelessWidget {
             title: Text(
               S.of(context).writeToSupport,
               style: context.textStyleColor(
-                context.textStyle.caption1!,
+                context.textStyle.body1!,
                 context.color.grey900_white!,
               ),
             ),
@@ -83,7 +83,7 @@ class SettingsScreen extends StatelessWidget {
             title: Text(
               S.of(context).userAgreement,
               style: context.textStyleColor(
-                context.textStyle.caption1!,
+                context.textStyle.body1!,
                 context.color.grey900_white!,
               ),
             ),

@@ -8,6 +8,7 @@ class AppColorsTheme extends ThemeExtension<AppColorsTheme> {
     required this.white,
     required this.grey900,
     required this.amber200,
+    required this.blue600,
     required this.white_grey900, // primary
     required this.blue600_grey900, // primaryVariant
     required this.grey900_white, // onPrimary
@@ -20,6 +21,7 @@ class AppColorsTheme extends ThemeExtension<AppColorsTheme> {
   final Color? white;
   final Color? grey900;
   final Color? amber200;
+  final Color? blue600;
   final Color? white_grey900;
   final Color? blue600_grey900;
   final Color? grey900_white;
@@ -33,6 +35,7 @@ class AppColorsTheme extends ThemeExtension<AppColorsTheme> {
     Color? white,
     Color? grey900,
     Color? amber200,
+    Color? blue600,
     Color? white_to_grey900,
     Color? blue600_grey900,
     Color? grey900_white,
@@ -45,6 +48,7 @@ class AppColorsTheme extends ThemeExtension<AppColorsTheme> {
       white: white ?? this.white,
       grey900: grey900 ?? this.grey900,
       amber200: amber200 ?? this.amber200,
+      blue600: blue600 ?? this.blue600,
       white_grey900: white_grey900 ?? white_grey900,
       blue600_grey900: blue600_grey900 ?? this.blue600_grey900,
       grey900_white: grey900_white ?? this.grey900_white,
@@ -64,6 +68,7 @@ class AppColorsTheme extends ThemeExtension<AppColorsTheme> {
       white: Color.lerp(white, other.white, t),
       grey900: Color.lerp(grey900, other.grey900, t),
       amber200: Color.lerp(amber200, other.amber200, t),
+      blue600: Color.lerp(blue600, other.blue600, t),
       white_grey900: Color.lerp(white_grey900, other.white_grey900, t),
       blue600_grey900: Color.lerp(blue600_grey900, other.blue600_grey900, t),
       grey900_white: Color.lerp(grey900_white, other.grey900_white, t),
@@ -78,6 +83,7 @@ class AppColorsTheme extends ThemeExtension<AppColorsTheme> {
     white: AppColors.white,
     grey900: AppColors.grey900,
     amber200: AppColors.amber200,
+    blue600: AppColors.blue600,
     white_grey900: AppColors.white,
     blue600_grey900: AppColors.blue600,
     grey900_white: AppColors.grey900,
@@ -91,6 +97,7 @@ class AppColorsTheme extends ThemeExtension<AppColorsTheme> {
     white: AppColors.white,
     grey900: AppColors.grey900,
     amber200: AppColors.amber200,
+    blue600: AppColors.blue600,
     white_grey900: AppColors.grey900,
     blue600_grey900: AppColors.grey900,
     grey900_white: AppColors.white,
