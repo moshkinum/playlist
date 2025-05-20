@@ -1,4 +1,5 @@
 {
+  "@@locale": "en",
   "appName": "Playlist",
   "playlistMaker": "Playlist maker",
   "search": "Поиск",
